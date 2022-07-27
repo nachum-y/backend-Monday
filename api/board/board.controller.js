@@ -1,5 +1,7 @@
 const boardService = require('./board.service.js')
 const logger = require('../../services/logger.service')
+const socketService = require('../../services/socket.service')
+
 
 // GET LIST
 async function getBoard(req, res) {
@@ -50,7 +52,15 @@ async function updateBoard(req, res) {
   try {
     const board = req.body
     const updatedBoard = await boardService.update(board)
+    // socketService.broadcast({ type: 'updateBoard'})
+    // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUserId})
+
+    // const fullUser = await userService.getById(loggedinUser._id)
+    // socketService.emitTo({ type: 'updateBoard', data: updatedBoard })
+    // socketService.emitTo({ type: 'updateGroup', data: updatedBoard })
+    // socketService.emitTo({ type: 'updateBoard', updatedBoard })
     res.json(updatedBoard)
+
   } catch (err) {
     logger.error('Failed to update board', err)
     res.status(500).send({ err: 'Failed to update board' })

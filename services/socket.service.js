@@ -13,7 +13,7 @@ function setupSocketAPI(http) {
         socket.on('disconnect', socket => {
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('chat-set-topic', topic => {
+        socket.on('setBoard', topic => {
             if (socket.myTopic === topic) return
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -32,7 +32,7 @@ function setupSocketAPI(http) {
         socket.on('user-watch', userId => {
             logger.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
             socket.join('watching:' + userId)
-            
+
         })
         socket.on('set-user-socket', userId => {
             logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
@@ -41,6 +41,17 @@ function setupSocketAPI(http) {
         socket.on('unset-user-socket', () => {
             logger.info(`Removing socket.userId for socket [id: ${socket.id}]`)
             delete socket.userId
+        })
+        socket.on('loadBoard', msg => {
+            logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
+            console.log(msg)
+            // emits to all sockets:
+            // gIo.emit(msg)
+            // emits only to sockets in the same room
+            // console.log(socket.myTopic)
+            // gIo.to(socket.myTopic).emit('updateBoard', board)
+            // socket.broadcast(msg)
+            socket.broadcast.emit(msg)
         })
 
     })
@@ -57,7 +68,7 @@ async function emitToUser({ type, data, userId }) {
     if (socket) {
         logger.info(`Emiting event: ${type} to user: ${userId} socket [id: ${socket.id}]`)
         socket.emit(type, data)
-    }else {
+    } else {
         logger.info(`No active socket for user: ${userId}`)
         // _printSockets()
     }
@@ -76,9 +87,11 @@ async function broadcast({ type, data, room = null, userId }) {
         excludedSocket.broadcast.emit(type, data)
     } else if (room) {
         logger.info(`Emit to room: ${room}`)
+        console.log('Emit to all')
         gIo.to(room).emit(type, data)
     } else {
         logger.info(`Emit to all`)
+        console.log('Emit to all')
         gIo.emit(type, data)
     }
 }
@@ -107,9 +120,9 @@ module.exports = {
     // set up the sockets service and define the API
     setupSocketAPI,
     // emit to everyone / everyone in a specific room (label)
-    emitTo, 
+    emitTo,
     // emit to a specific user (if currently active in system)
-    emitToUser, 
+    emitToUser,
     // Send to all sockets BUT not the current socket - if found
     // (otherwise broadcast to a room / to all)
     broadcast,
