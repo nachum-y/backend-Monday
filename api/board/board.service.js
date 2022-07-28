@@ -67,6 +67,7 @@ async function update(board) {
         delete board._id
         const collection = await dbService.getCollection('boards')
         await collection.updateOne({ _id: id }, { $set: { ...board } })
+        
         return board
     } catch (err) {
         logger.error(`cannot update board ${board._id}`, err)
@@ -83,24 +84,7 @@ module.exports = {
 }
 
 function _buildCriteria(filterBy) {
-    // console.log(filterBy)
     var criteria = {}
-    // if (!filterBy) return criteria
-    // if (filterBy.txt) {
-    //     criteria.name = { $regex: filterBy.txt, $options: 'i' }
-    // }
-    // // console.log('filterBy111:',filterBy)
-    // if (filterBy.price && filterBy.price.length > 0 && filterBy.price[0]) {
-    //     criteria.$and = [{ price: { $gte: parseInt(filterBy.price[0]) } }, { price: { $lte: parseInt(filterBy.price[1]) } }]
-    // }
-    // if (filterBy.label && filterBy.label.length > 0) {
-    //     criteria.labels = { $in: [...filterBy.label] }
-    // }
-    // if (filterBy.inStock) {
-    //     criteria.inStock = true
-    // }
-
-    // console.log(criteria)
     return criteria
 
 
