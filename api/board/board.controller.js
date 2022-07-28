@@ -5,14 +5,12 @@ const socketService = require('../../services/socket.service')
 
 // GET LIST
 async function getBoard(req, res) {
-  console.log('getBoard')
   try {
     // var page = parseInt(req.query.p) || 1
     // const boardsPerPage = 3
     // logger.debug('Getting Toys')
 
     const queryParams = req.query
-    console.log(queryParams, 'queryParams')
     const boards = await boardService.query()
     res.json(boards)
   } catch (err) {
@@ -23,10 +21,9 @@ async function getBoard(req, res) {
 
 // GET BY ID 
 async function getBoardById(req, res) {
-  console.log('getBoardById')
+
   try {
     const boardId = req.params.id
-    console.log(boardId)
     const board = await boardService.getById(boardId)
     res.json(board)
   } catch (err) {

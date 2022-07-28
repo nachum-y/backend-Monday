@@ -14,7 +14,7 @@ async function query() {
         // var sortByParams = {}
 
         const criteria = _buildCriteria()
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         var boards = await collection
             .find(criteria)
             .toArray()
@@ -31,7 +31,7 @@ async function query() {
 
 async function getById(boardId) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         const board = collection.findOne({ _id: ObjectId(boardId) })
         return board
     } catch (err) {
@@ -42,7 +42,7 @@ async function getById(boardId) {
 
 async function remove(boardId) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         await collection.deleteOne({ _id: ObjectId(boardId) })
         return boardId
     } catch (err) {
@@ -53,7 +53,7 @@ async function remove(boardId) {
 
 async function add(board) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         const addedBoard = await collection.insertOne(board)
         return addedBoard
     } catch (err) {
@@ -65,8 +65,9 @@ async function update(board) {
     try {
         var id = ObjectId(board._id)
         delete board._id
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: id }, { $set: { ...board } })
+        
         return board
     } catch (err) {
         logger.error(`cannot update board ${board._id}`, err)
@@ -83,24 +84,7 @@ module.exports = {
 }
 
 function _buildCriteria(filterBy) {
-    // console.log(filterBy)
     var criteria = {}
-    // if (!filterBy) return criteria
-    // if (filterBy.txt) {
-    //     criteria.name = { $regex: filterBy.txt, $options: 'i' }
-    // }
-    // // console.log('filterBy111:',filterBy)
-    // if (filterBy.price && filterBy.price.length > 0 && filterBy.price[0]) {
-    //     criteria.$and = [{ price: { $gte: parseInt(filterBy.price[0]) } }, { price: { $lte: parseInt(filterBy.price[1]) } }]
-    // }
-    // if (filterBy.label && filterBy.label.length > 0) {
-    //     criteria.labels = { $in: [...filterBy.label] }
-    // }
-    // if (filterBy.inStock) {
-    //     criteria.inStock = true
-    // }
-
-    // console.log(criteria)
     return criteria
 
 

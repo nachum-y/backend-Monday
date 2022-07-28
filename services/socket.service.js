@@ -13,7 +13,8 @@ function setupSocketAPI(http) {
         socket.on('disconnect', socket => {
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('setBoard', topic => {
+        socket.on('setTopic', topic => {
+            console.log(topic)
             if (socket.myTopic === topic) return
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -44,14 +45,13 @@ function setupSocketAPI(http) {
         })
         socket.on('loadBoard', msg => {
             logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
-            console.log(msg)
-            // emits to all sockets:
-            // gIo.emit(msg)
-            // emits only to sockets in the same room
-            // console.log(socket.myTopic)
-            // gIo.to(socket.myTopic).emit('updateBoard', board)
-            // socket.broadcast(msg)
             socket.broadcast.emit(msg)
+        })
+        socket.on('conversion', msgs => {
+            console.log(msgs)
+            gIo.to(socket.myTopic).emit('conversion', msgs)
+            // socket.broadcast.emit('conversion', msgs)
+
         })
 
     })
@@ -87,11 +87,9 @@ async function broadcast({ type, data, room = null, userId }) {
         excludedSocket.broadcast.emit(type, data)
     } else if (room) {
         logger.info(`Emit to room: ${room}`)
-        console.log('Emit to all')
         gIo.to(room).emit(type, data)
     } else {
         logger.info(`Emit to all`)
-        console.log('Emit to all')
         gIo.emit(type, data)
     }
 }
