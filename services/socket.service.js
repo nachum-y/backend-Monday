@@ -13,7 +13,8 @@ function setupSocketAPI(http) {
         socket.on('disconnect', socket => {
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('setBoard', topic => {
+        socket.on('setTopic', topic => {
+            console.log(topic)
             if (socket.myTopic === topic) return
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -45,6 +46,12 @@ function setupSocketAPI(http) {
         socket.on('loadBoard', msg => {
             logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
             socket.broadcast.emit(msg)
+        })
+        socket.on('conversion', msgs => {
+            console.log(msgs)
+            gIo.to(socket.myTopic).emit('conversion', msgs)
+            // socket.broadcast.emit('conversion', msgs)
+
         })
 
     })
