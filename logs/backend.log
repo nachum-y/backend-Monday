@@ -6279,3 +6279,5 @@
 28.7.2022, 21:05:15 - INFO - New chat msg from socket [id: iB5WEHrHNZJmm7EbAAAD], emitting to topic undefined 
 28.7.2022, 21:05:16 - INFO - Socket disconnected [id: undefined] 
 28.7.2022, 21:05:16 - INFO - New connected socket [id: 1nz-R_j_vy0-z0X4AAAF] 
+28.7.2022, 21:27:35 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 21:27:36 - INFO - New connected socket [id: _oMp59M9I8K7quRlAAAH] 
