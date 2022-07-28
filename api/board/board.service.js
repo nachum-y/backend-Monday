@@ -14,7 +14,7 @@ async function query() {
         // var sortByParams = {}
 
         const criteria = _buildCriteria()
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         var boards = await collection
             .find(criteria)
             .toArray()
@@ -31,7 +31,7 @@ async function query() {
 
 async function getById(boardId) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         const board = collection.findOne({ _id: ObjectId(boardId) })
         return board
     } catch (err) {
@@ -42,7 +42,7 @@ async function getById(boardId) {
 
 async function remove(boardId) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         await collection.deleteOne({ _id: ObjectId(boardId) })
         return boardId
     } catch (err) {
@@ -53,7 +53,7 @@ async function remove(boardId) {
 
 async function add(board) {
     try {
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         const addedBoard = await collection.insertOne(board)
         return addedBoard
     } catch (err) {
@@ -65,7 +65,7 @@ async function update(board) {
     try {
         var id = ObjectId(board._id)
         delete board._id
-        const collection = await dbService.getCollection('boards')
+        const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: id }, { $set: { ...board } })
         
         return board
