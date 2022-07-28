@@ -6050,3 +6050,150 @@
 28.7.2022, 19:02:34 - INFO - Socket disconnected [id: undefined] 
 28.7.2022, 19:02:35 - INFO - New connected socket [id: 1cCm0uOv7twCNhSSAAB7] 
 >>>>>>> 674aa154090b19054c585a2b918e1fcbddaba744
+28.7.2022, 19:04:48 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:04:49 - INFO - New connected socket [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:04:54 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:04:54 - INFO - New connected socket [id: iiiaZT9by8CrzD13AAAz] 
+28.7.2022, 19:05:21 - INFO - Socket is leaving topic t101 [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:05:23 - INFO - Socket is leaving topic t102 [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:05:28 - INFO - Socket is leaving topic t101 [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:05:37 - INFO - Socket is leaving topic t101 [id: iiiaZT9by8CrzD13AAAz] 
+28.7.2022, 19:05:38 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:05:38 - INFO - New connected socket [id: S3hPqII19_NKYOxXAAA1] 
+28.7.2022, 19:05:48 - INFO - Socket is leaving topic t102 [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:05:51 - INFO - Socket is leaving topic NpXas [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:06:03 - INFO - Socket is leaving topic t102 [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:06:07 - INFO - Socket is leaving topic NpXas [id: TxIVfsKgTSvBWsBFAAAx] 
+28.7.2022, 19:06:31 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:06:34 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:06:38 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:01 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:05 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:08 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:09 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:11 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:20 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:23 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:07:25 - INFO - New chat msg from socket [id: TxIVfsKgTSvBWsBFAAAx], emitting to topic t102 
+28.7.2022, 19:11:32 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:11:33 - INFO - New connected socket [id: 7diFfmvamRzDfK2YAAA3] 
+28.7.2022, 19:12:46 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:32 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:34 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:46 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:48 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:50 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:52 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:54 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:13:59 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:14:01 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:14:05 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:14:07 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:14:09 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:14:11 - INFO - New chat msg from socket [id: 7diFfmvamRzDfK2YAAA3], emitting to topic undefined 
+28.7.2022, 19:15:51 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:15:51 - INFO - New connected socket [id: n3qxcHXqLpLM1KZoAAA5] 
+28.7.2022, 19:15:53 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:15:53 - INFO - New connected socket [id: WsiFq42K4Vmc0dY7AAA7] 
+28.7.2022, 19:15:54 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:15:54 - INFO - New connected socket [id: XZwEuFehBmfJwtUqAAA9] 
+28.7.2022, 19:16:08 - INFO - Socket is leaving topic t122 [id: XZwEuFehBmfJwtUqAAA9] 
+28.7.2022, 19:16:13 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:16:13 - INFO - New connected socket [id: c_gJyhx5-UQh7eMJAAA_] 
+28.7.2022, 19:16:29 - INFO - Socket is leaving topic t123 [id: c_gJyhx5-UQh7eMJAAA_] 
+28.7.2022, 19:16:35 - INFO - Socket is leaving topic t121 [id: c_gJyhx5-UQh7eMJAAA_] 
+28.7.2022, 19:16:45 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:46 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:48 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:49 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:51 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:52 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:16:53 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:17:19 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:17:20 - INFO - New chat msg from socket [id: c_gJyhx5-UQh7eMJAAA_], emitting to topic t109 
+28.7.2022, 19:17:25 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:17:25 - INFO - New connected socket [id: ba3ZJXPb8VTRM55pAABB] 
+28.7.2022, 19:17:31 - INFO - New connected socket [id: OdeuQANx7UjAdb_UAABD] 
+28.7.2022, 19:17:35 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:17:40 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:17:50 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:17:50 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:17:53 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:17:58 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:05 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:08 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:10 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:12 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:14 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:16 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:21 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:23 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:25 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:27 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:29 - INFO - New chat msg from socket [id: OdeuQANx7UjAdb_UAABD], emitting to topic undefined 
+28.7.2022, 19:18:31 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:18:55 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:18:56 - INFO - New connected socket [id: yI06Tm7AojE8kVoVAABF] 
+28.7.2022, 19:19:06 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:19:06 - INFO - New connected socket [id: rdHQLPq4cQDv8g9mAABH] 
+28.7.2022, 19:19:18 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:19:18 - INFO - New connected socket [id: lBcuTcL5bViUsyLrAABJ] 
+28.7.2022, 19:19:25 - INFO - New chat msg from socket [id: lBcuTcL5bViUsyLrAABJ], emitting to topic undefined 
+28.7.2022, 19:19:26 - INFO - New chat msg from socket [id: lBcuTcL5bViUsyLrAABJ], emitting to topic undefined 
+28.7.2022, 19:20:09 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:20:09 - INFO - New connected socket [id: KSui30jcPIKnqayFAABL] 
+28.7.2022, 19:20:10 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:20:10 - INFO - New connected socket [id: 9CspBhaDen-6y6qqAABN] 
+28.7.2022, 19:20:52 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:20:53 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:20:55 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:20:56 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:20:58 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:00 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:01 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:03 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:06 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:06 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:08 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:11 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:13 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:15 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:18 - INFO - New chat msg from socket [id: 9CspBhaDen-6y6qqAABN], emitting to topic undefined 
+28.7.2022, 19:21:51 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:21:51 - INFO - New connected socket [id: 8QOGFH_OnH0cYbyqAABP] 
+28.7.2022, 19:23:10 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:23:10 - INFO - New connected socket [id: 6C1u7P1Ev_LiaGw9AABR] 
+28.7.2022, 19:23:18 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:23:19 - INFO - New connected socket [id: mIC4mD_bb1m_ddEaAABT] 
+28.7.2022, 19:23:20 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:23:21 - INFO - New connected socket [id: o5W78YL_Pds0EduTAABV] 
+28.7.2022, 19:23:24 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:23:25 - INFO - New connected socket [id: 27BziTtw6ATqzWi8AABX] 
+28.7.2022, 19:23:29 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:23:29 - INFO - New connected socket [id: hWg2BlS0HCnaci-KAABZ] 
+28.7.2022, 19:24:01 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:24:01 - INFO - New connected socket [id: NDu0ng6HQLYfbMXZAABb] 
+28.7.2022, 19:24:04 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:24:04 - INFO - New connected socket [id: CoOiOxOK9MQw_MW-AABd] 
+28.7.2022, 19:24:06 - INFO - New connected socket [id: zGI0z5S5Ux43fHfiAABf] 
+28.7.2022, 19:24:35 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:24:35 - INFO - New connected socket [id: bIaEL5OG_oCLULwLAABh] 
+28.7.2022, 19:24:49 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:25:06 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic undefined 
+28.7.2022, 19:25:18 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:19 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:21 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:36 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:42 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:50 - INFO - New chat msg from socket [id: bIaEL5OG_oCLULwLAABh], emitting to topic t121 
+28.7.2022, 19:25:56 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:25:57 - INFO - New connected socket [id: V-BoQq6eBSiR8PIwAABj] 
+28.7.2022, 19:35:02 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:35:02 - INFO - New connected socket [id: ypsoBO-izFVBMp1QAABl] 
+28.7.2022, 19:35:30 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:35:31 - INFO - New connected socket [id: 8HPmSfieOK_3PHJEAABn] 
+28.7.2022, 19:35:52 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 19:35:52 - INFO - Socket disconnected [id: undefined] 
+28.7.2022, 20:11:32 - INFO - Server is running on port: 3030 
+28.7.2022, 20:11:48 - INFO - New connected socket [id: 8Pl8E-c6vIHhvF_yAAAB] 
+28.7.2022, 20:16:17 - INFO - New chat msg from socket [id: 8Pl8E-c6vIHhvF_yAAAB], emitting to topic t122 
