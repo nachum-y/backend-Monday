@@ -15169,6 +15169,17 @@
 1.8.2022, 19:49:53 - INFO - New connected socket [id: weB1uUDn9QWj4VeqAABJ] 
 =======
 >>>>>>> f3756c9eae743c3b5e4e0e842e5984690d8db11f
+<<<<<<< HEAD
+1.8.2022, 20:08:29 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:08:29 - INFO - New connected socket [id: g329CjjuavQ0X1O1AAEn] 
+1.8.2022, 20:08:34 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:08:35 - INFO - New connected socket [id: oer_sk5Y74z3l73eAAEp] 
+1.8.2022, 20:08:38 - INFO - New chat msg from socket [id: oer_sk5Y74z3l73eAAEp], emitting to topic undefined 
+1.8.2022, 20:16:25 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:16:25 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:16:26 - INFO - New connected socket [id: O-p2tpS5HO_2n9szAAEs] 
+1.8.2022, 20:16:26 - INFO - New connected socket [id: yjo-rhokRoLXoXvsAAEt] 
+=======
 >>>>>>> de85053938a6e7091e64b7aa98650b9f14964a63
 1.8.2022, 19:51:38 - INFO - New chat msg from socket [id: weB1uUDn9QWj4VeqAABJ], emitting to topic undefined 
 1.8.2022, 19:51:56 - INFO - New chat msg from socket [id: weB1uUDn9QWj4VeqAABJ], emitting to topic undefined 
@@ -15181,6 +15192,7 @@
 1.8.2022, 20:14:35 - INFO - New connected socket [id: 6L3eMGW6R_STMS2CAABP] 
 1.8.2022, 20:14:38 - INFO - Socket disconnected [id: undefined] 
 1.8.2022, 20:14:39 - INFO - New connected socket [id: brcjyQVSKjUnps5EAABR] 
+<<<<<<< HEAD
 1.8.2022, 20:15:51 - INFO - Socket disconnected [id: undefined] 
 1.8.2022, 20:15:52 - INFO - New connected socket [id: qTIfAp7x_R36zHEXAABT] 
 1.8.2022, 20:17:38 - INFO - Socket disconnected [id: undefined] 
@@ -15247,3 +15259,6 @@
 1.8.2022, 20:39:58 - INFO - New connected socket [id: fIbwuLdu77XusDlOAACR] 
 1.8.2022, 20:40:06 - INFO - Socket disconnected [id: undefined] 
 1.8.2022, 20:40:06 - INFO - New connected socket [id: 4BBvbMi9FIb8u_bcAACT] 
+=======
+>>>>>>> fefef204ca53532f268cd31511e60274d6798ee3
+>>>>>>> bbf2d77dd9321488fb5d937abd7c2151ab00eb46
