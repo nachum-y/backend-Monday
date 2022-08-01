@@ -14852,3 +14852,12 @@
 =======
 >>>>>>> b8bec42ae131bf39428bff5b98ea5749fd861f79
 >>>>>>> f3756c9eae743c3b5e4e0e842e5984690d8db11f
+1.8.2022, 20:08:29 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:08:29 - INFO - New connected socket [id: g329CjjuavQ0X1O1AAEn] 
+1.8.2022, 20:08:34 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:08:35 - INFO - New connected socket [id: oer_sk5Y74z3l73eAAEp] 
+1.8.2022, 20:08:38 - INFO - New chat msg from socket [id: oer_sk5Y74z3l73eAAEp], emitting to topic undefined 
+1.8.2022, 20:16:25 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:16:25 - INFO - Socket disconnected [id: undefined] 
+1.8.2022, 20:16:26 - INFO - New connected socket [id: O-p2tpS5HO_2n9szAAEs] 
+1.8.2022, 20:16:26 - INFO - New connected socket [id: yjo-rhokRoLXoXvsAAEt] 
