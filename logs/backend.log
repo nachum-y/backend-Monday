@@ -15339,3 +15339,10 @@
 2.8.2022, 9:25:24 - INFO - New connected socket [id: rqQ6GdsGjEYpxt7wAAAz] 
 2.8.2022, 9:25:46 - INFO - Socket disconnected [id: undefined] 
 2.8.2022, 9:25:46 - INFO - New connected socket [id: hVDbGgf0JuPjp64mAAA1] 
+2.12.2022, 12:58:04 - INFO - Server is running on port: 3030 
+2.12.2022, 12:58:10 - INFO - New connected socket [id: O8kFlKiaeLxbcW6OAAAB] 
+2.12.2022, 12:58:22 - INFO - Socket disconnected [id: undefined] 
+2.12.2022, 12:58:24 - INFO - New connected socket [id: FKxyaPgQHm1cJ3i2AAAD] 
+2.12.2022, 13:00:17 - INFO - Socket disconnected [id: undefined] 
+2.12.2022, 13:00:17 - INFO - New connected socket [id: ssnn4sBlP5e2sOxUAAAF] 
+2.12.2022, 13:00:19 - INFO - Socket disconnected [id: undefined] 
